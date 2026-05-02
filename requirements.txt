@@ -1,0 +1,18 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+tqdm>=4.65
+
+# Deep-learning stack
+torch>=2.0
+
+# Hyperparameter tuning (used by run_lagpair_analysis, run_logit_analysis,
+# run_pretrained_logit_analysis, and the LocalizedMultiBlockEstimator's
+# null-contrast Optuna search)
+optuna>=3.0
+
+# Transformer training and pretrained-LLM logit pipeline
+transformers>=4.30
+datasets>=2.14
